@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Zajišťuje, že celá stránka má výšku */
+  overflow-x: hidden; /* Skryje horizontální posuvník */
+}
+
+footer {
+  background-color: #ccc;
+}
+
+p.description {
+  text-align: justify;
+}
+
+.btn-next {
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2em;
+}
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+  .main_actuality {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #aaa;
+  }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width:767.98px) {
+  .main_actuality {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border: 5px solid #aaa;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width:991.98px) {
+  .main_actuality {
+    font-size: 1.3em;
+  }
+
+  p.date {
+    color: red;
+  }
+}
+
+.nav-link {
+  color: white !important;
+  /* Zajišťuje, že text bude bílý */
+  font-size: 1.2rem;
+  /* Zvětšení velikosti textu */
+  margin-right: 20px;
+  /* Vzdálenost mezi odkazy */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+      margin-bottom: 20px; /* Vytvoření prostoru mezi hlavním obsahem a malými náhledy */
+  }
+
+  .separator {
+      border-top: 1px solid #ccc; /* Oddělovací čára */
+      margin: 20px 0; /* Vytvoření prostoru nad a pod čárou */
+  }
+}
+
+/* Přidání odsazení z vrchu pro celý kontejner */
+.container-fluid {
+  padding-top: 100px; /* Můžete upravit hodnotu podle potřeby */
+}
+.background-image {
+  background-size: cover; /* Zajišťuje, že obrázek pokrývá celý prostor */
+  background-position: center; /* Udržuje obrázek ve středu */
+  height: 400px; /* Nastavte výšku podle potřeby */
+}
+
+.text-overlay {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif; /* Použití fontu Montserrat pro text */
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif; /* Použití fontu Montserrat pro nadpis */
+  font-size: 24px; /* Zvětšení velikosti písma pro nadpis */
+  font-weight: bold; /* Tučnění písma pro nadpis */
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif; /* Použití fontu Roboto pro text */
+}
+
+.form-centered {
+  width: 90%; /* Formulář zabírá většinu šířky stránky */
+  max-width: 600px; /* Maximální šířka, aby nevypadal příliš roztažený */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Mezera mezi jednotlivými poli */
+}
+
+label {
+  font-size: 16px; /* Velikost textu popisků */
+}
+
+.form-control {
+  width: 100%; /* Šířka pole vždy odpovídá rodiči */
+  padding: 10px; /* Pohodlné vnitřní odsazení */
+  font-size: 16px; /* Zvětšené písmo */
+  border: 1px solid #ccc; /* Jemný rámeček */
+  border-radius: 4px; /* Zaoblené rohy */
+}
+
+.btn {
+  width: 100%; /* Tlačítko pokrývá celou šířku formuláře */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+/* Latest News Page Styles */
+.hover-shadow {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-gradient-dark {
+  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2), transparent);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+  border: none !important;
+  transition: all 0.3s ease;
+}
+
+.card-img-top {
+  transition: all 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.03);
+}
+
+.badge {
+  padding: 0.5em 1em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.display-4 {
+  letter-spacing: -1px;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  margin-top: 4rem !important;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+footer p {
+  color: #6c757d;
+  margin-bottom: 0;
+}
